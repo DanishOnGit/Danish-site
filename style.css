@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Vollkorn+SC:wght@900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 :root{
     --primary-color:#096192;
     --sec-color:white;
@@ -9,7 +9,6 @@
 }
 body{
     font-family: montserrat,sans-serif;
-    
     margin: 0;
     max-width: 800px;
     width: 100%;
@@ -66,7 +65,8 @@ hr{
     top: 0;
 }
 .navigation .nav-brand .link{
-     font-family: 'Vollkorn SC', serif;
+    font-family: 'Dancing Script', cursive;
+     font-size: 2rem;
     letter-spacing: 5px;
     color: var(--sec-color);
 }
